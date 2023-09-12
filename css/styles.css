@@ -595,6 +595,10 @@ input::placeholder {
   margin-bottom: 8px;
 }
 
+.block {
+margin-bottom: 16px;
+}
+
 .form-label {
   font-size: 12px;
   line-height: 1.17;
@@ -711,4 +715,22 @@ textarea::placeholder {
   line-height: 14px;
   letter-spacing: 0.48px;
   color: rgba(46, 47, 66, 0.4);
+}
+
+.form-svg:focus {
+  fill: #4D5AE5
+}
+
+.last-section {
+  margin-bottom: 24px; 
+}
+
+.privacy-policy input:checked {
+  background-color: #404bbf;
+  border: none;
+  fill:#F4F4FD;
+}
+
+.terms-conditions {
+  color: #4d5ae5;
 }
