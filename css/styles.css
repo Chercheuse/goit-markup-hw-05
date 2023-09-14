@@ -675,14 +675,12 @@ input::placeholder {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin-right: 8px;
 }
 
-.form-input:checked + .privacy-policy:checked {
+.form-input:checked + .form-label > .privacy-policy {
   background-color: #404bbf;
   border: none;
-}
-
-.form-input:checked + .form-label .privacy-policy:checked .form-checkbox {
   fill: #f4f4fd;
 }
 
